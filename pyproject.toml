@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "CS_project"
+version = "0.1.0"
+description = "This project is a python application  that reads a picture (as a .png file) in a low resolution, to generate a scalable version (as a .svg file) that can be used as a high-resolution wallpaper for  computer."
+authors = ["HibaKarim <hibakarim39@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pillow = "^11.0.0"
+matplotlib = "^3.10.0"
+ipython = "^8.31.0"
+pytest = "^8.3.4"
+pylint = "^3.3.3"
+coverage = "^7.6.10"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+sphinx = "^8.1.3"
+sphinx-rtd-theme = "^3.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
